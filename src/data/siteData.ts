@@ -1,10 +1,8 @@
 import { Project, Service, Testimonial, Magazine } from '../types';
 
-// Genuine AVN Interiors brand logo from avninteriors.com
-export const AVN_LOGO = 'https://static.wixstatic.com/media/0a0f8f_8c0dab294c0e43a6a9bfa54cce0f12ce~mv2.png';
+export const AVN_LOGO = '/images/avn-logo.png';
 
-// Authentic portrait of Aditi Vora Nair (Founder & Principal Designer) from avninteriors.com/about
-export const ADITI_PORTRAIT = 'https://static.wixstatic.com/media/0a0f8f_499b83cf03984a42a02d3c5112921a86~mv2.webp';
+export const ADITI_PORTRAIT = '/images/aditi-portrait.webp';
 
 export const HERO_SLIDES = [
   {
@@ -19,9 +17,9 @@ export const HERO_SLIDES = [
     id: '02',
     title: 'Sanctuary\nin the heart of the city',
     subtitle: 'Curated natural light, tactile textures,\nand refined proportion for serene living.',
-    projectName: 'L S Office',
-    location: 'Mumbai',
-    image: '/images/hero/02-ls-office.jpg',
+    projectName: 'A House',
+    location: 'Kutch',
+    image: '/images/hero/02-a-house.jpg',
   },
   {
     id: '03',
@@ -39,7 +37,7 @@ export const PROJECTS_DATA: Project[] = [
     title: 'Tranquility',
     location: 'Mumbai',
     category: 'Residential',
-    image: 'https://static.wixstatic.com/media/0a0f8f_38be14ac16e44bbdaee27206af92449d~mv2.jpg',
+    image: '/images/tranquility.jpg',
     year: '2024',
     area: '4,200 sq.ft',
     description: 'An understated urban sanctuary emphasizing natural travertine, brushed warm brass, and bespoke muted upholstery designed for calm, reflective living.',
@@ -49,7 +47,7 @@ export const PROJECTS_DATA: Project[] = [
     title: 'K House',
     location: 'Mumbai',
     category: 'Architecture',
-    image: 'https://static.wixstatic.com/media/0a0f8f_a6bb18e17ea34323a0afb989ef57fdab~mv2.jpg',
+    image: '/images/k-house.jpg',
     year: '2024',
     area: '8,500 sq.ft',
     description: 'A multi-tiered residence framing panoramic views with cantilevered teak elements and a seamless transition between interior and exterior spaces.',
@@ -59,7 +57,7 @@ export const PROJECTS_DATA: Project[] = [
     title: 'L House',
     location: 'Mumbai',
     category: 'Residential',
-    image: 'https://static.wixstatic.com/media/0a0f8f_cf9e0f9661664576b3023aec1db7ecf0~mv2.jpg',
+    image: '/images/l-house.jpg',
     year: '2023',
     area: '3,800 sq.ft',
     description: 'A light-filled dining and living suite centered around artisanal solid oak and Scandinavian minimalist sensibilities.',
@@ -69,7 +67,7 @@ export const PROJECTS_DATA: Project[] = [
     title: 'Aikyam',
     location: 'Mumbai',
     category: 'Featured',
-    image: 'https://static.wixstatic.com/media/0a0f8f_7e5fa703704e4d58ba2928fe47818e17~mv2.jpg',
+    image: '/images/aikyam.jpg',
     year: '2024',
     area: '5,600 sq.ft',
     description: 'A sprawling coastal apartment combining fluted dark walnut, custom architectural marble accents, and bespoke curved modular seating.',
@@ -82,7 +80,7 @@ export const FEATURED_WORK_DATA: Project[] = [
     title: 'M House',
     location: 'Thane',
     category: 'Residential',
-    image: 'https://static.wixstatic.com/media/0a0f8f_80bba0ea57e04b7ea17888a9950c4f32~mv2.jpg',
+    image: '/images/m-house.jpg',
     year: '2023',
     area: '3,100 sq.ft',
     description: 'A rich tactile formal living space featuring deep jewel-toned accents, warm timber panels, and artisanal lighting fixtures.',
@@ -92,7 +90,7 @@ export const FEATURED_WORK_DATA: Project[] = [
     title: 'V House',
     location: 'Mumbai',
     category: 'Residential',
-    image: 'https://static.wixstatic.com/media/0a0f8f_36922239b3e44dc8bfe1b83be45263d0~mv2.jpg',
+    image: '/images/v-house.jpg',
     year: '2023',
     area: '4,000 sq.ft',
     description: 'A bespoke dining and gallery setting characterized by cognac saddle-leather elements and curated monochrome wall art.',
@@ -102,7 +100,7 @@ export const FEATURED_WORK_DATA: Project[] = [
     title: 'L S Office',
     location: 'Mumbai',
     category: 'Commercial',
-    image: 'https://static.wixstatic.com/media/0a0f8f_946e16ef854a4439be3913b70673aedb~mv2.jpg',
+    image: '/images/ls-office.jpg',
     year: '2024',
     area: '6,200 sq.ft',
     description: 'A double-height executive headquarters featuring a sculptural cantilevered staircase, structural glass balustrades, and a cascading green plant wall.',
@@ -112,14 +110,13 @@ export const FEATURED_WORK_DATA: Project[] = [
     title: 'T T House',
     location: 'Mumbai',
     category: 'Residential',
-    image: 'https://static.wixstatic.com/media/0a0f8f_6dba76cd00034225b07efe183a86c661~mv2.jpg',
+    image: '/images/tt-house.jpg',
     year: '2023',
     area: '5,000 sq.ft',
     description: 'A grand volume entertaining hall highlighted by charcoal vertical slats, a bronze multi-tier chandelier, and recessed lighting.',
   },
 ];
 
-// Complete collection of original AVN portfolio projects from avninteriors.com/portfolio
 export const ALL_PORTFOLIO_PROJECTS: Project[] = [
   ...PROJECTS_DATA,
   ...FEATURED_WORK_DATA,
@@ -128,7 +125,7 @@ export const ALL_PORTFOLIO_PROJECTS: Project[] = [
     title: 'H House',
     location: 'Mumbai',
     category: 'Residential',
-    image: 'https://static.wixstatic.com/media/0a0f8f_5908473b5add408a8788b0ae11e02607~mv2.jpg',
+    image: '/images/h-house.jpg',
     year: '2024',
     area: '4,500 sq.ft',
     description: 'A warm sanctuary combining custom fluted wood paneling, bespoke master suite, and an open outdoor verandah.',
@@ -138,7 +135,7 @@ export const ALL_PORTFOLIO_PROJECTS: Project[] = [
     title: 'A House',
     location: 'Kutch',
     category: 'Residential',
-    image: 'https://static.wixstatic.com/media/0a0f8f_40ae1e7c0bfc4557bcc4377fd3bd7a01~mv2.jpg',
+    image: '/images/hero/02-a-house.jpg',
     year: '2023',
     area: '6,000 sq.ft',
     description: 'A vernacular architectural retreat honoring regional materiality, earth tones, and expansive courtyard ventilation.',
@@ -148,7 +145,7 @@ export const ALL_PORTFOLIO_PROJECTS: Project[] = [
     title: 'Level - The Residences',
     location: 'Mumbai',
     category: 'Residential',
-    image: 'https://static.wixstatic.com/media/0a0f8f_cc58db53f4204499845b62775baf8056~mv2.jpg',
+    image: '/images/level-residences.jpg',
     year: '2024',
     area: '5,200 sq.ft',
     description: 'High-rise luxury residence pairing imported Italian statuario marble with muted brushed champagne metals.',
@@ -158,7 +155,7 @@ export const ALL_PORTFOLIO_PROJECTS: Project[] = [
     title: 'Indiabulls Blu',
     location: 'Mumbai',
     category: 'Residential',
-    image: 'https://static.wixstatic.com/media/0a0f8f_60160315684744f1ad602afd489d7e80~mv2.jpg',
+    image: '/images/indiabulls-blu.jpg',
     year: '2023',
     area: '4,800 sq.ft',
     description: 'An executive residence perched high above Mumbai with floor-to-ceiling glazing and minimalist bespoke cabinetry.',
@@ -168,7 +165,7 @@ export const ALL_PORTFOLIO_PROJECTS: Project[] = [
     title: 'N House',
     location: 'Mumbai',
     category: 'Residential',
-    image: 'https://static.wixstatic.com/media/0a0f8f_de7094a939e249d9ad86aca082868973~mv2.jpg',
+    image: '/images/n-house.jpg',
     year: '2023',
     area: '3,500 sq.ft',
     description: 'A contemporary family home with calm neutral palettes, bespoke joinery, and thoughtfully layered lighting.',
@@ -208,94 +205,91 @@ export const TESTIMONIALS_DATA: Testimonial[] = [
     quote: 'It was a great experience. I liked her choices and trusted her completely. Not to mention we were quite in sync throughout the design & execution phase.',
     author: 'Kashish Mirani',
     role: 'Client',
-    avatar: 'https://static.wixstatic.com/media/0a0f8f_499b83cf03984a42a02d3c5112921a86~mv2.webp',
+    avatar: '/images/testimonial-1.webp',
   },
   {
     id: '2',
     quote: 'Professional, creative and very attuned to what we wanted. The space feels like us, only better.',
     author: 'Priya Shah',
     role: 'Client',
-    avatar: 'https://static.wixstatic.com/media/0a0f8f_4fedd4320b884b7690a7da30123e1c20~mv2.jpg',
+    avatar: '/images/testimonial-2.jpg',
   },
   {
     id: '3',
     quote: 'Aditi and her team are a joy to work with. Great attention to detail and beautiful execution.',
     author: 'Rohit Mehta',
     role: 'Client',
-    avatar: 'https://static.wixstatic.com/media/0a0f8f_5bce5f536a464f7b92f60afc759e3182~mv2.jpg',
+    avatar: '/images/testimonial-3.jpg',
   },
 ];
 
-// Exact Magazine Features from avninteriors.com/magzine-features
 export const MAGAZINES_DATA: Magazine[] = [
   {
     id: 'ad',
     title: 'Architectural Digest',
     issue: 'Architectural Digest India',
-    coverImage: 'https://static.wixstatic.com/media/0a0f8f_0f726589d1ac436492fae32b6bcd0141~mv2.jpg',
+    coverImage: '/images/ad-cover.jpg',
     badge: 'ARCHITECTURAL DIGEST',
   },
   {
     id: 'good-homes',
     title: 'GoodHomes',
     issue: 'The Color & Pattern Issue',
-    coverImage: 'https://static.wixstatic.com/media/0a0f8f_e68c76aa39f44323bc365a384fc74145~mv2.jpg',
+    coverImage: '/images/good-homes-cover.jpg',
     badge: 'GOODHOMES',
   },
   {
     id: 'elle-decor',
     title: 'Elle Decor',
     issue: 'Modern Indian Design Special',
-    coverImage: 'https://static.wixstatic.com/media/0a0f8f_c788c5e4b8ae49b9b1aa0bae34605382~mv2.jpg',
+    coverImage: '/images/elle-decor-cover.jpg',
     badge: 'ELLE DECOR',
   },
   {
     id: 'living-etc',
     title: 'Livingetc',
     issue: 'Contemporary Luxury Spaces',
-    coverImage: 'https://static.wixstatic.com/media/0a0f8f_ff7036ab59914f6d9475896c15ec5d5e~mv2.jpg',
+    coverImage: '/images/living-etc-cover.jpg',
     badge: 'LIVINGETC',
   },
   {
     id: 'inside-outside',
     title: 'Inside Outside',
     issue: 'Indian Architecture Special',
-    coverImage: 'https://static.wixstatic.com/media/0a0f8f_7d7d843f31eb44ab9ffd0939d140f5cf~mv2.jpg',
+    coverImage: '/images/inside-outside-cover.jpg',
     badge: 'INSIDE OUTSIDE',
   },
 ];
 
-// Digital features from avninteriors.com/digital-features
 export const DIGITAL_FEATURES_DATA = [
   {
     id: 'df-1',
     title: 'The Design Story',
     outlet: 'Architectural Digest Online',
-    image: 'https://static.wixstatic.com/media/0a0f8f_bcef646b91c2410a9a0fd852e0826c96~mv2.jpg',
+    image: '/images/df-1.jpg',
   },
   {
     id: 'df-2',
     title: 'Spatial Harmony',
     outlet: 'Elle Decor Digital',
-    image: 'https://static.wixstatic.com/media/0a0f8f_fc29c0b7f9dd4166b019c1918f72f992~mv2.jpg',
+    image: '/images/df-2.jpg',
   },
   {
     id: 'df-3',
     title: 'Material Elegance',
     outlet: 'Houzz India',
-    image: 'https://static.wixstatic.com/media/0a0f8f_77ba2df252ea41ec81cd0661d2536aa8~mv2.jpg',
+    image: '/images/df-3.jpg',
   },
   {
     id: 'df-4',
     title: 'Entertaining in Style',
     outlet: 'GoodHomes Digital',
-    image: 'https://static.wixstatic.com/media/0a0f8f_3d0e6674c27c44b083fd6005d8be247f~mv2.jpg',
+    image: '/images/df-4.jpg',
   },
   {
     id: 'df-5',
     title: 'Minimalist Balance',
     outlet: 'Architectural Digest Special',
-    image: 'https://static.wixstatic.com/media/0a0f8f_1858c254b6254c8dade6036f08bbf9d4~mv2.jpg',
+    image: '/images/df-5.jpg',
   },
 ];
-

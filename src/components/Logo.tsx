@@ -17,7 +17,7 @@ export default function Logo({ className = '', theme = 'dark', isFooter = false 
         <img
           src={AVN_LOGO}
           alt="AVN Interiors - Aditi Vora Nair"
-          className={`h-16 sm:h-20 lg:h-[88px] w-auto object-contain transition-opacity duration-300 ${
+          className={`h-20 sm:h-24 lg:h-[104px] w-auto object-contain transition-opacity duration-300 ${
             isLight ? 'brightness-0 invert' : ''
           }`}
           onError={() => setImageError(true)}
@@ -25,7 +25,7 @@ export default function Logo({ className = '', theme = 'dark', isFooter = false 
       ) : (
         /* Fallback refined typographic monogram */
         <div className="flex items-center gap-4">
-          <div className="relative w-14 h-14 flex-shrink-0 flex items-center justify-center">
+          <div className="relative w-16 h-16 flex-shrink-0 flex items-center justify-center">
             <svg
               viewBox="0 0 40 40"
               className={`w-full h-full ${isLight ? 'text-white' : 'text-[#1a1a1a]'}`}

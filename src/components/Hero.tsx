@@ -35,11 +35,11 @@ export default function Hero({ onViewWork, onGetInTouch }: HeroProps) {
               src={s.image}
               alt={s.projectName}
               className="w-full h-full object-cover object-center"
-              loading={idx === 0 ? 'eager' : 'lazy'}
+              loading="eager"
             />
-            {/* Cinematic architectural gradient overlays */}
-            <div className="absolute inset-0 bg-gradient-to-r from-[#fcfbf9]/95 via-[#fcfbf9]/75 to-transparent md:w-[62%] lg:w-[52%]" />
-            <div className="absolute inset-0 bg-gradient-to-t from-[#fcfbf9]/50 via-transparent to-transparent" />
+            {/* Cinematic architectural gradient overlays - only on left text area */}
+            <div className="absolute left-0 top-0 bottom-0 hidden md:block md:w-[55%] lg:w-[50%] bg-gradient-to-r from-[#fcfbf9]/40 via-[#fcfbf9]/15 to-transparent" />
+            <div className="absolute left-0 bottom-0 hidden md:block md:w-[55%] lg:w-[50%] h-[40%] bg-gradient-to-t from-[#fcfbf9]/25 via-transparent to-transparent" />
           </div>
         ))}
       </div>

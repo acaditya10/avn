@@ -13,23 +13,23 @@ export const HERO_SLIDES = [
     subtitle: 'Thoughtful interiors. Timeless design.\nA more beautiful way to live, work and belong.',
     projectName: 'Tranquility',
     location: 'Mumbai',
-    image: 'https://static.wixstatic.com/media/0a0f8f_b0550e918a7d482f87b4ab5a95d09799~mv2.jpg',
+    image: '/images/hero/01-tranquility.jpg',
   },
   {
     id: '02',
     title: 'Sanctuary\nin the heart of the city',
     subtitle: 'Curated natural light, tactile textures,\nand refined proportion for serene living.',
-    projectName: 'H House',
+    projectName: 'L S Office',
     location: 'Mumbai',
-    image: 'https://static.wixstatic.com/media/0a0f8f_5908473b5add408a8788b0ae11e02607~mv2.jpg',
+    image: '/images/hero/02-ls-office.jpg',
   },
   {
     id: '03',
     title: 'Warm minimalism\ncrafted with intention',
     subtitle: 'Spaces engineered to evolve,\ninspire, and stand the test of time.',
-    projectName: 'Aikyam',
+    projectName: 'K House',
     location: 'Mumbai',
-    image: 'https://static.wixstatic.com/media/0a0f8f_64def05fb8464d6dbe77c7b7e0a08876~mv2.jpg',
+    image: '/images/hero/03-k-house.jpg',
   },
 ];
 

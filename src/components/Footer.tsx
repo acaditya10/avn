@@ -147,7 +147,7 @@ export default function Footer() {
 
         {/* Subfooter */}
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-[12px] text-[#736d65]">
-          <p>© 2024 by AVN INTERIORS. Designed and Developed by Greens Media.</p>
+          <p>© 2024 by AVN INTERIORS. Designed and developed by <a href="https://getvortexlabs.com" target="_blank" rel="noreferrer" className="underline hover:text-[#181818] transition-colors">Vortex Labs</a>.</p>
           <p className="font-serif italic text-[#57524a]">Design for a more human tomorrow.</p>
         </div>
       </div>

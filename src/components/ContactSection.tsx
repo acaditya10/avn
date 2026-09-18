@@ -33,6 +33,16 @@ export default function ContactSection({ onScrollToForm }: ContactSectionProps) 
 
   return (
     <section id="contact" className="w-full py-20 lg:py-28 bg-[#332b26] text-white relative overflow-hidden">
+      {/* Background image - dimmed */}
+      <div className="absolute inset-0 -z-10">
+        <img
+          src="/images/k-house.jpg"
+          alt=""
+          className="w-full h-full object-cover object-center opacity-15"
+        />
+        <div className="absolute inset-0 bg-gradient-to-r from-[#332b26]/95 via-[#332b26]/80 to-[#332b26]/95" />
+      </div>
+
       {/* Ambient warm gradient on the left */}
       <div className="absolute top-1/2 left-0 -translate-y-1/2 w-[500px] h-[500px] bg-[#534032]/35 rounded-full blur-[100px] pointer-events-none" />
 

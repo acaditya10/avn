@@ -13,9 +13,9 @@ export default function PressSection({ onViewMedia }: PressSectionProps) {
         <img
           src="/images/inside-outside-cover.jpg"
           alt=""
-          className="w-full h-full object-cover object-center opacity-15"
+          className="w-full h-full object-cover object-center opacity-30"
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-[#28221e]/95 via-[#28221e]/80 to-[#28221e]/95" />
+        <div className="absolute inset-0 bg-gradient-to-r from-[#28221e]/85 via-[#28221e]/60 to-[#28221e]/85" />
       </div>
 
       {/* Subtle warm ambient lighting and shadow on the left */}

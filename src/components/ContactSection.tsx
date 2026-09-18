@@ -38,9 +38,9 @@ export default function ContactSection({ onScrollToForm }: ContactSectionProps) 
         <img
           src="/images/k-house.jpg"
           alt=""
-          className="w-full h-full object-cover object-center opacity-15"
+          className="w-full h-full object-cover object-center opacity-30"
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-[#332b26]/95 via-[#332b26]/80 to-[#332b26]/95" />
+        <div className="absolute inset-0 bg-gradient-to-r from-[#332b26]/85 via-[#332b26]/60 to-[#332b26]/85" />
       </div>
 
       {/* Ambient warm gradient on the left */}

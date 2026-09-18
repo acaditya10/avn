@@ -21,15 +21,15 @@ export default function Hero({ onViewWork, onGetInTouch }: HeroProps) {
   const slide = HERO_SLIDES[currentSlideIndex];
 
   return (
-    <section id="home" className="relative w-full min-h-[92vh] lg:min-h-[96vh] pt-24 pb-16 flex items-center overflow-hidden">
+    <section id="home" className="relative isolate w-full min-h-[92vh] lg:min-h-[96vh] pt-24 pb-16 flex items-center overflow-hidden">
       {/* Background Slides with crossfade */}
-      <div className="absolute inset-0 -z-10 bg-[#e8e4dc]">
+      <div className="absolute inset-0 z-0 bg-[#e8e4dc]">
         {HERO_SLIDES.map((s, idx) => (
           <div
             key={s.id}
-            className={`absolute inset-0 transition-opacity duration-1000 ease-in-out ${
+            className={`absolute inset-0 transition-[opacity,transform] duration-1000 ease-in-out ${
               idx === currentSlideIndex ? 'opacity-100 scale-100' : 'opacity-0 scale-105 pointer-events-none'
-            } transition-transform duration-10000`}
+            }`}
           >
             <img
               src={s.image}
